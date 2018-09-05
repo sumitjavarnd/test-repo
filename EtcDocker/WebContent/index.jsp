@@ -1,3 +1,4 @@
+<%@page import="com.rnd.docker.WelcomePage"%>
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
@@ -8,6 +9,8 @@
 <title>Etc-Docker App</title>
 </head>
 <body>
-	<h1>Hello, Welcome to Docker setup of ETC Sample - <%= new Date() %></h1>
+	<h1>
+		Hello, It is a Docker setup of ETC Sample <br>
+		<%=new WelcomePage().getDate()%></h1>
 </body>
 </html>
