@@ -1,4 +1,4 @@
-@Library("test-pipelines") _
+@Library("pipeline-library-demo") _
 
 javaApp {
 
