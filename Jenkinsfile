@@ -1,5 +1,6 @@
 @Library("pipeline-library-demo") _
 
-javaApp {
-
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Dave'
 }
